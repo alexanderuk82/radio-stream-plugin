@@ -1,0 +1,16 @@
+{
+  "name": "Pulse Radio",
+  "id": "pulse-radio-figma-music-player",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/index.html",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": ["figma", "figjam"],
+  "networkAccess": {
+    "allowedDomains": [
+      "*"
+    ],
+    "reasoning": "Radio streams and station artwork come from thousands of different server domains worldwide. Wildcard access is required to play any internet radio station."
+  }
+}
